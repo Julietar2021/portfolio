@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+@media screen and (min-width:800px) {
+
+.angle-up {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+background-color: rgba(227, 18, 25, 0.8);
+right: 30px;
+bottom: 30px;
+text-align: center;
+line-height: 45px;
+z-index: 999;
+font-size: 30px;
+border-radius: 5px;
+}
+
+.angle-up a {
+font-size: 1.5em;
+color: white;
+}
+
+.angle-up a :hover{
+    color: white;
+    }
+
+    
+}
+
+
+    @media screen  and (max-width:799px){
+
+.angle-up {
+    position: fixed;
+    height: 35px;
+    width: 32px;
+right: 20px;
+bottom: 20px;
+text-align: center;
+line-height: 35px;
+z-index: 999;
+font-size: 30px;
+border-radius: 5px;
+}
+
+.angle-up a {
+font-size: 1.5em;
+color: white;
+}
+
+        
+    }
+
+body {
+    background-color: #040404 !important;
+    position: relative;
+    background: transparent;
+    position: relative;
+font-family: 'roboto' sans-serif;
+}
+
+.bodyimg {
+    content: "";
+    background: #040404  url("https://pbs.twimg.com/media/FAXfNmGXoAQuN0e?format=png&name=small")  no-repeat;
+    background-position:center !important;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 20%;
+    left: 0;
+
+}
+
+
+.dropbtn {
+    background-color:rgba(4,4,4,0.8);
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+  }
+  .dropbtn:hover {
+    border-bottom: 2px solid orange;
+    color: #040404;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #040404;
+  }
+
+
+
+
+
+
+
+
+
+/* nav section */
+@media screen and (min-width:800px) {
+    .bodyimg{
+        background-attachment:fixed;
+    }
+nav {
+display: flex !important; 
+justify-content: space-between !important   ;
+align-items: center;
+padding: 20px 0;
+
+
+}
+.logo{
+    display: flex;
+}
+.logo h1 {
+    color: white;
+}
+
+.logo small {
+    color:rgba(227, 18, 25);
+}
+.icon .fas {
+  
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto' sans-serif;
+    display: block;
+    font-weight: bold;
+  
+}
+nav ul a:hover{
+    border-bottom: 2px solid rgba(227, 18, 25);
+    color: #040404;
+}
+
+    
+}
+/* end of nav desktop view */
+
+@media screen and (max-width:799px){
+    .icon .fas {
+       display: block;
+       color: gray;
+       font-size: 2em;
+       padding: 20px 40px;
+       
+    }
+    #port h1{
+        display: none;
+    }
+    nav {
+        display: block;
+      
+    }
+    nav ul {
+        display: none;
+    }
+nav ul li {
+    display: block;
+  text-align: center;
+    animation-name: example;
+    animation-duration:  1s;  
+   transition: all  2s;
+  }
+  
+ 
+@keyframes example {
+    from {margin-left: -1000px;}
+    to {margin-left: 0;}
+  }
+
+@media screen and (max-width:500px) {
+    nav ul li {
+        text-align: left;
+    }
+}
+
+
+  nav ul a {
+    text-decoration: none;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-family: 'Roboto' sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px;
+  
+}
+}
+
+/*end of nav bar section */
+
+
+
+/* start of name title */
+
+
+@media screen and (min-width:800px) {
+#name {
+    
+    background-color: rgba(0,0,0,0.5);
+    width: 100% !important;
+}
+    .head1 {
+padding-top: 15%;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .head1 h1 a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .head1 h4 {
+        color: white;
+    }
+    .head1 h4 span {
+        color:rgba(227, 18, 25);
+    }
+
+    .btn-head {
+        background-color: rgba(227, 18, 25);
+        border: 1px solid rgba(227, 18, 25);
+
+        border-radius: 5px;
+color: white;
+cursor: pointer;
+font-weight: 600px;
+        
+    }
+    .btn-head:hover {
+        border: 1px solid rgba(227, 18, 25);
+        background-color:rgba(0,0,0,0);
+    }
+}
+
+/* end of title desktop view*/
+
+
+@media screen and (max-width:799px) {
+
+
+.bodyimg {
+    display: none;
+}
+
+    .head1 {
+        padding: 5% 11%;
+    
+    }
+    .head1 h1 a {
+        color: white;
+        font-family: 'ubuntu' sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+
+    .head1 h4 {
+        color: white;
+    }
+    .head1 h4 span {
+        color: orange;
+    }
+
+    .btn-head {
+        background-color: orange;
+        border: 1px solid orange;
+        padding: 5px;
+        border-radius: 5px;
+color: white;
+cursor: pointer;
+font-weight: 600px;
+        
+    }
+    .btn-head:hover {
+        background-color:rgba(0,0,0,0);
+    } }
+
+    /* social links section */
+
+
+
+
+.social-menu ul {
+ display: block;
+   
+}
+.social-menu  li {
+    display: inline-block;
+    list-style: none;
+padding-left: 10px;
+
+}
+
+.social-menu ul li .fab {
+color:white;
+font-size: 15px;
+
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    text-decoration: none;
+height:20px;
+border-radius: 50%;
+background-color: #000;
+
+
+   }
+
+
+.social-menu ul li a .fa-facebook-f:hover {
+    color: #3b5998;
+
+}
+.social-menu ul li a .fa-github-alt:hover {
+    color: #333333;
+}
+
+
+.social-menu ul li a .fa-linkedin-in:hover {
+    color:#007bb6 ;
+}
+.social-menu ul li a  .fa-twitter:hover {
+    color: 	#00aced;
+}
+
+.social-menu ul li a  .fa-instagram:hover {
+    color: #8a3ab9;
+}
+.social-menu ul li a  .fa-youtube:hover {
+    color: #bb0000;
+}
+
+   @media screen and (min-width:800px) {
+    .social-menu  {
+        width: 60%;
+        margin: 10px auto 100px auto ;
+    }
+   }
+  
+/* end of social links section */
+
+/* start of about me setion */
+
+@media screen and (min-width:800px) {
+    #about {
+     background-color: rgba(0,0,0,0.7);
+        width: 100% !important;
+        padding: 80px;
+    }
+    .about-title {
+        color: white;
+        position: relative;
+        text-align: center;
+   font-family: 'ubuntun' sans-serif;
+        }
+        .about-title::before {
+            content: "";
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            width: 200px;
+            height: 3px;
+            transform: translate(-50%, -50%);
+            background-color: white;
+    
+        }
+        .about-title::after{
+            content: "Learn more about me";
+            position: absolute;
+            bottom: -53px;
+            left: 50%;
+          padding: 5px;
+            transform: translate(-50%, -50%);
+            background-color:rgba(4,4,4,9);
+            color: rgba(227, 18, 25);
+            z-index: 10;
+        }
+.about-grid {
+    margin: 100px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+        .about-image {
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .about-grid {
+            color: white;
+        }
+        .about-grid a {
+            background-color: rgba(227, 18, 25);
+        border: 1px solid rgba(227, 18, 25);
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px;
+        }
+
+        .about-grid a:hover {
+            background-color: #040404;
+            color: white;
+        } 
+ }
+
+
+
+
+/* end of about section desktop view */
+
+/* about section mobile view */
+@media screen and (max-width:799px) {
+
+
+    .about-title {
+ text-align: center;
+    color: #706e6e;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 5px;
+margin-bottom: 15px;
+font-weight: bold;
+font-family: 'ubuntu', sans-serif;
+    }
+    .image{
+
+text-align: center;
+    }
+    
+    .about-image {
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+        object-fit: cover;
+      
+    }
+
+    .info {
+        background-color: white;
+        padding: 10px 15px;
+    }
+
+    .about-grid a {
+        background-color: orange;
+    border: 1px solid orange;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .about-image  {
+        width: 100%;
+    }
+    
+}
+
+/* end of about sectiob */
+
+/* start of services section */
+
+@media screen and (min-width:800px) {
+
+    #service {
+padding: 80px;
+     background-color: rgba(0,0,0,0.7);
+     width: 100% !important;
+    }
+   
+    .service-title {
+        color: white;
+        position: relative;
+        text-align: center;
+   font-family: 'ubuntun' sans-serif;
+
+     }
+
+
+     .service-title::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        width: 120px;
+        height: 3px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+
+    }
+    .service-title::after{
+        content: "what i offer";
+        position: absolute;
+        bottom: -53px;
+        left: 50%;
+      padding: 5px;
+        transform: translate(-50%, -50%);
+        background-color:rgba(4,4,4,9);
+        color: rgba(227, 18, 25);
+        z-index: 10;
+    }
+
+    .service-grid{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+
+
+.left{
+    background-color:rgba(20, 19, 19,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.left:hover {
+    
+    background-color: rgba(227, 18, 25, 0.8);
+}
+
+.middle {
+
+    background-color:rgba(20, 19, 19,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.middle:hover{
+    
+    background-color: rgba(227, 18, 25, 0.8);
+}
+
+.right {
+    
+    background-color:rgba(20, 19, 19,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.right:hover {
+    background-color: rgba(227, 18, 25, 0.8);
+}
+.brush {
+        color: rgba(227, 18, 25);
+        font-size: 2em;
+        padding: 5px;
+}
+
+
+.text {
+font-size: 1.5em;
+padding: 5px;
+font-weight: bold;
+}
+
+    }
+/* end of desktop view */
+
+@media screen and (max-width:799px) {
+
+.service-title{
+
+ text-align: center;
+ color: #706e6e;
+ font-size: 25px;
+ width: 100%;
+ border-radius: 5px;
+margin-bottom: 15px;
+font-weight: bold;
+font-family: 'ubuntu', sans-serif;
+ 
+padding-top: 10px;
+   
+}
+
+.service-grid {
+    text-align: center;
+}
+
+.fas {
+    color: orange;
+    font-size: 1.5em;
+}
+    
+
+
+.left{
+    background-color:rgba(255,255,255,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+
+.middle {
+
+    background-color:rgba(255,255,255,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.right {
+    
+    background-color:rgba(255,255,255,0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+margin-bottom: 10px;
+}
+
+.brush {
+        color: rgba(227, 18, 25);
+        font-size: 2em;
+        padding: 5px;
+}
+
+
+.text {
+font-size: 1.5em;
+padding: 5px;
+font-weight: bold;
+}
+
+
+
+}
+
+
+
+
+/* end of services */
+
+/* Start of skills section */
+@media screen and (min-width: 800px) {
+
+
+
+    #skill {
+        padding: 80px;
+             background-color: rgba(0,0,0,0.7);
+             width: 100% !important;
+            }
+    
+
+    .skill-title {
+        color: white;
+        position: relative;
+        text-align: center;
+   font-family: 'ubuntun' sans-serif;
+
+     }
+
+
+     .skill-title::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        width: 120px;
+        height: 3px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+
+    }
+    .skill-title::after{
+        content: "what i offer";
+        position: absolute;
+        bottom: -53px;
+        left: 50%;
+      padding: 5px;
+        transform: translate(-50%, -50%);
+        background-color:rgba(4,4,4,9);
+        color: rgba(227, 18, 25);
+        z-index: 10;
+    }
+
+    .para {
+        padding-top: 45px;
+        color: white;
+    }
+
+    .skill-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-gap: 50px;
+        color: white;
+        padding: 20px;
+    }
+
+    .progress-bar{
+        background-color: rgba(227, 18, 25) !important;
+    
+    }
+}
+
+/* end of skills desktop view */
+
+@media screen and (max-width:799px) {
+    
+    .skill-title{
+
+ text-align: center;
+ color: #706e6e;
+ font-size: 25px;
+ width: 100%;
+ border-radius: 5px;
+margin-bottom: 15px;
+font-weight: bold;
+font-family: 'ubuntu', sans-serif;
+padding-top: 10px;
+}
+
+#skill-wrap {
+    background-color: white;
+    padding: 10px;
+}
+.para {
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    background-color: orange !important;
+
+}
+.skill-list {
+    margin-bottom: 10px;
+}
+}
+
+
+/* end of skills */
+
+/* team section starts here */
+
+   .team-title {
+       color: white;
+       position: relative;
+       text-align: center;
+  font-family: 'ubuntun' sans-serif;
+       }
+
+  
+  
+       .carousel-inner {
+        text-align:center; 
+        color: white;
+        padding:50px 0;
+        }
+        
+        .carousel-inner img {
+          width: 250px;
+          height: 250px;
+          border-radius:50%;
+          object-fit: cover;
+          
+        }
+
+        
+
+        .carousel-inner h3 {
+            color: rgba(227, 18, 25, 0.8);
+        }
+
+  
+@media screen and (min-width:800px) {
+    #team {
+        background-color: rgba(0,0,0,0.7);
+      width: 100% !important;
+           padding: 80px;
+    
+       }
+
+       .team-title::before {
+           content: "";
+           position: absolute;
+           bottom: -25px;
+           left: 50%;
+           width: 150px;
+           height: 3px;
+           transform: translate(-50%, -50%);
+           background-color: white;
+   
+       }
+       .team-title::after{
+           content: "meet my team";
+           position: absolute;
+           bottom: -53px;
+           left: 50%;
+         padding: 5px;
+           transform: translate(-50%, -50%);
+           background-color:rgba(4,4,4,9);
+           color: rgba(227, 18, 25);
+           z-index: 10;
+       }
+
+               
+       .carousel-inner     {
+
+        background-color: rgba(0,0,0,0.7);
+       }
+
+
+       .carousel-inner p {
+        padding:0 75px;
+    }
+            
+    
+    }
+
+
+
+        @media screen and (max-width:799px) {
+            .team-title {
+
+                text-align: center;
+                color: #706e6e;
+                font-size: 25px;
+                width: 100%;
+                border-radius: 5px;
+               margin-bottom: 15px;
+               font-weight: bold;
+               font-family: 'ubuntu', sans-serif;
+               padding-top: 10px;
+               
+                   }
+
+                   #team {
+                    background-color: rgba(0,0,0,0.7);
+                  width: 100% !important;
+ 
+                
+                   }
+
+                   
+       .carousel-inner {
+
+    background-color:rgba(255,255,255,0.7);
+       }
+
+       
+       .carousel-inner span {
+           color:orange
+       }
+
+       .carousel-inner p {
+           padding:0 5px;
+       }
+
+
+       .slidebutton {
+        display: none;
+    }
+        }
+
+
+
+
+/* start of contact */
+@media screen and (min-width:800px) {
+  
+
+    #contact {
+        padding: 80px;
+             background-color: rgba(0,0,0,0.7);
+             width: 100% !important;
+            }
+    
+
+    .contact-title {
+        color: white;
+        position: relative;
+        text-align: center;
+   font-family: 'ubuntun' sans-serif;
+
+     }
+
+
+     .contact-title::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        width: 120px;
+        height: 3px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+
+    }
+    .contact-title::after{
+        content: "what i offer";
+        position: absolute;
+        bottom: -53px;
+        left: 50%;
+      padding: 5px;
+        transform: translate(-50%, -50%);
+        background-color:rgba(4,4,4,9);
+        color: rgba(227, 18, 25);
+        z-index: 10;
+    }
+
+  .contact-grid {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px;
+      color: white;
+  }
+
+  .top .fas {
+      color: rgba(227, 18, 25, 0.8);
+      font-size: 2.5em;
+  }
+
+  .top {
+      display: grid;
+      grid-template-columns: 0.2fr 1fr;
+  }
+
+  .item1 {
+      grid-row: 1/3;
+  }
+
+input {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 84%;
+    border: 1px solid grey;
+    margin-bottom: 15px !important;
+}
+
+.contact-grid button {
+    background-color: rgba(227, 18, 25);
+    border: 1px solid rgba(227, 18, 25);
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-weight: 600px;
+    
+}
+.contact-grid button:hover {
+    border: 1px solid rgba(227, 18, 25);
+    background-color:rgba(0,0,0,0);
+
+}
+}
+ 
+/* end of desktop view for contact */
+
+@media screen and (max-width:799px) {
+
+    .contact-title {
+
+ text-align: center;
+ color: #706e6e;
+ font-size: 25px;
+ width: 100%;
+ border-radius: 5px;
+margin-bottom: 15px;
+font-weight: bold;
+font-family: 'ubuntu', sans-serif;
+padding-top: 10px;
+
+    }
+    .contact-grid {
+padding: 10px;
+width: 100%;
+    background-color: white;
+    }
+
+
+    .top {
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+    }
+  
+    .item1 {
+        grid-row: 1/3;
+    }
+  
+.top .fas {
+    font-size: 2em;
+}
+
+.item3 {
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 5px !important;
+    width: 90%;
+}
+textarea {
+    width: 90%;
+}
+
+.contact-grid button {
+width: 90%;
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+color: white;
+cursor: pointer;
+font-weight: 600px;
+    
+}
+
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
