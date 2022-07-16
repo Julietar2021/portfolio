@@ -43,7 +43,7 @@ var typed = new Typed (".typing1", {
 var typed = new Typed (".typing2", {
 
 
-  strings: ["Lanre Dinho", "System Administrator"],
+  strings: ["Taye Obawolu", "Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
