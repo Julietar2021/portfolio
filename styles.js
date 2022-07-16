@@ -96,7 +96,7 @@ var typed = new Typed (".typing5", {
 var typed = new Typed (".typing6", {
 
 
-  strings: ["Chris Marvin", "Network Engineer", "Web developer"],
+  strings: ["Valentine Ezeudu", "Senior Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
