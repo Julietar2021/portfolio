@@ -32,7 +32,7 @@ var typed = new Typed (".typing", {
 var typed = new Typed (".typing1", {
 
 
-  strings: ["Tina Tony", "Frontend Developer"],
+  strings: ["Tina Tony", "Senior Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
@@ -43,7 +43,7 @@ var typed = new Typed (".typing1", {
 var typed = new Typed (".typing2", {
 
 
-  strings: ["Taye Obawolu", "Data Analyst"],
+  strings: ["Taye Obawolu", "IT Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
@@ -56,7 +56,7 @@ var typed = new Typed (".typing2", {
 var typed = new Typed (".typing3", {
 
 
-  strings: ["Julie Chan", "IT Support Specialist", "Frontend Developer"],
+  strings: ["Julie Chan", "IT Support Helpdesk", "Frontend Developer"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
@@ -96,7 +96,7 @@ var typed = new Typed (".typing5", {
 var typed = new Typed (".typing6", {
 
 
-  strings: ["Valentine Ezeudu", "Senior Data Analyst"],
+  strings: ["Valentine Ezeudu", "Junior Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
