@@ -441,9 +441,9 @@ background-color: #000;
 }
 
         .about-image {
-            width: 400px;
-            height: 300px;
-            border-radius: 10px;
+            width: 350px;
+            height: 250px;
+            border-radius: 8px;
             object-fit: cover;
         }
         .about-grid {
