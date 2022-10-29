@@ -16,7 +16,7 @@ function menuBar() {
 var typed = new Typed (".typing", {
 
 
-  strings: ["Data Analyst","IT Support Specialist"],
+  strings: ["IT Data Analyst"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
