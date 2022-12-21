@@ -440,12 +440,7 @@ background-color: #000;
     grid-template-columns: 1fr 1fr;
 }
 
-        .about-image {
-            width: 400px;
-            height: 300px;
-            border-radius: 8px;
-            object-fit: cover;
-        }
+        
         .about-grid {
             color: white;
         }
