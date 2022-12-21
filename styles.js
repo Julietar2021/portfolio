@@ -16,7 +16,7 @@ function menuBar() {
 var typed = new Typed (".typing", {
 
 
-  strings: ["IT Data Analyst"],
+  strings: ["Enthusiastic data analyst who wants to contribute to the success of the team through hard work, attention to detail, and excellent organizational skills. A clear and excellent understanding of how to analyze complex data. Coupled with my training in analytical skills and understanding of platforms for effective data-driven decision making, I hope to bring a motivated attitude to your organization."],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
