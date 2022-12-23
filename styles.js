@@ -16,7 +16,8 @@ function menuBar() {
 var typed = new Typed (".typing", {
 
 
-  strings: ["data analyst who wants to contribute to the success of the team through hard work, attention to detail, and excellent organizational skills. A clear and excellent understanding of how to analyze complex data. Coupled with my training in analytical skills and understanding of platforms for effective data-driven decision making, I hope to bring a motivated attitude to your organization."],
+  strings: ["Entry level data analyst, continuously learning and possessing extensive knowledge of SQL, Power BI, Excel, Tableau, IBM Cognos Analytics, Google Data Studio, Big Query, Python, AWS QuickSight,Technical Support, Customer Support, Networking, System Troubleshooting, HTML, and CSS.
+"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
