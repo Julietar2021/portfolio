@@ -16,7 +16,7 @@ function menuBar() {
 var typed = new Typed (".typing", {
 
 
-  strings: ["Entry level data analyst, continuously learning and possessing extensive knowledge of SQL, Power BI, Excel, Tableau, IBM Cognos Analytics, Google Data Studio, Big Query, Python, AWS QuickSight,Technical Support, Customer Support, Networking, System Troubleshooting, HTML, and CSS."],
+  strings: ["data analyst, continuously learning and possessing extensive knowledge of SQL, Power BI, Excel, Tableau, IBM Cognos Analytics, Google Data Studio, Big Query, Python, AWS QuickSight,Technical Support, Customer Support, Networking, System Troubleshooting, HTML, and CSS."],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
