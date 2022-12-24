@@ -63,19 +63,6 @@ body {
 font-family: 'roboto' sans-serif;
 }
 
-.bodyimg {
-    content: "";
-    background: #040404  url("https://i0.wp.com/www.phdata.io/wp-content/uploads/2022/08/Web-Traffic-Power-BI-Dashboard-Example-Screenshot.png")  no-repeat;
-    background-position:center !important;
-    background-size: cover;
-    height: 100vh;
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    right: 20%;
-    left: 0;
-
-}
 
 
 .dropbtn {
